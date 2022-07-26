@@ -11,14 +11,7 @@ export default function App() {
   const [timeb, setTimeb] = useState('');
   const [timec, setTimec] = useState('');
   const [timed, setTimed] = useState('');
-  useEffect(() => {
-    const localstorage = localStorage.getItem('times');
-    const times = JSON.parse(localstorage);
-    setTimea(times.timea);
-    setTimeb(times.timeb);
-    setTimec(times.timec);
-    setTimed(times.timed);
-  }, []);
+
   const handleChangeA = (e) => {
     setTimea(e.target.value);
   };

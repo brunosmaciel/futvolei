@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+.times {
+  margin: 30px;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+
+.times input {
+  border-bottom: 1px solid black;
+  margin-left: 10px;
+  height: 40px;
+  width: 100%;
+}
+
+.times input::placeholder {
+  font-size: 25px;
+}
+
+.main-content {
+  width: 400px;
+  height: 600px;
+}
+
+.pontos {
+  border-bottom: 2px solid black;
+  display: flex;
+  padding: 30px;
+  font-size: 24px;
+}
+
+.pontos button {
+  border: none;
+  background-color: transparent;
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.pontos p {
+  margin-right: 20px;
+}
+
+.tabela {
+  display: flex;
+  font-size: 16px;
+  border-bottom: 2px solid black;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+}
+
+.tabela input {
+  width: 30px;
+  border-bottom: 1px solid black;
+}
